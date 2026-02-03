@@ -75,10 +75,9 @@ int main(){
 int suma = 0;
     std::cout<<"Ingrese el numero 10";
     std::cin>>x;
-    for (int i =0;i>=x;i++)
+    for (int i = 0;i<=x;i++)
     {
-        suma = suma + i;
-        
+        suma += i;
     }
     std::cout<<"La suma es: "<<suma<< "\n\n";
 
