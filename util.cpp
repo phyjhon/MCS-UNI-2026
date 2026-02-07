@@ -147,20 +147,20 @@ void DemoInicial(){
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
     {
-    std::cout << "Demo Jhon Tellez Heredia" << std::endl;
+  //00  std::cout << "Demo Jhon Tellez Heredia" << std::endl;
     
     // TODO: no ingresar valores
-    x = 10;
+  //  x = 10;
     // TODO: verificar la comparacion
     // TODO: cambiar a ++i
     // TODO: como solo es 1 instruccion, no necesitas {}
     // TODO: suma += i;
-    std::cout<<"Ingrese el numero 10: ";
-    int x;
-    x = 10;
+    //std::cout<<"Ingrese el numero 10: ";
+    //int x;
+    //x = 10;
 
-    int resultado = SumaPrimero10(x);
-    std::cout<<"suma: "<<resultado<<std::endl;
+    //int resultado = SumaPrimero10(x);
+    //std::cout<<"suma: "<<resultado<<std::endl;
     }
 
 // 12. Valcarcel Julian
@@ -227,7 +227,10 @@ void DemoInicialCuadrosVargas(){
 // 10. Suarez Maciel Susana Isabel.
 
 // 11. Tellez Jhon
-void DemoInicialJhoinTellez();
+void DemoInicialJhonTellez(){
+    std::cout << "Demo Jhon Tellez" << std::endl;
+    std::cout << "Suma hasta 10: " << SumaPrimeros10(10) << std::endl;
+}
 // 12. Valcarcel Julian
 
 // 13. Vilca Aguilar Luis

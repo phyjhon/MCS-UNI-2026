@@ -87,10 +87,10 @@ T average(const T& a, const T& b){
 
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
-template <typename T>
-T SumaPrimero10(T x){
-    T suma = 0;
-    for(T i = 1; i <= x; ++i)
+template <typename T11>
+T11 SumaPrimeros10(T11 x) {
+    T11 suma = 0;
+    for(T11 i = 1; i <= x; ++i)
         suma += i;
     return suma;
 }
@@ -139,7 +139,7 @@ void DemoInicialCuadrosVargas();
 // 10. Suarez Maciel Susana Isabel.
 
 // 11. Tellez Jhon
-void DemoInicialJhoinTellez();
+void DemoInicialJhonTellez();
 
 // 12. Valcarcel Julian
 
