@@ -240,7 +240,23 @@ void DemoInicialSegoviaGiancarlo() {
 
 
 // 11. Tellez Jhon
-void DemoInicialJhoinTellez();
+
+/**
+ * @brief Función de suma de numeros naturales hasta un valor definido
+ *
+ * Esta función puede genjeralizarse para cualquier numero natural
+ *
+ * La función utiliza la función `fibonacci(int)` para realizar
+ * el cálculo.
+ *
+ * @author Giancarlo Segovia - MCS UNI 2026
+ * @date 07/02/2026
+ */
+
+void DemoInicialJhonTellez(){
+    std::cout << "Demo Jhon Tellez" << std::endl;
+    std::cout << "Suma hasta 10: " << SumaPrimeros10(10) << std::endl;
+}
 // 12. Valcarcel Julian
 
 // 13. Vilca Aguilar Luis

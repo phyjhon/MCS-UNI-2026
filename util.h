@@ -110,6 +110,16 @@ T average(const T& a, const T& b){
 
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
+/**
+ * @brief suma los 10 primeros numeros naturales
+ *
+ * Función plantilla que acumula la suma de los valores desd el uno hasta el 10
+ * @tparam T11 Tipo de dato int.
+ * @param x valor hasta donde debe de llegar el valor acumulativo.
+ *
+ * @author Jhon Tellez 
+ * @date 07/02/2026
+ */
 template <typename T>
 T SumaPrimero10(T x){
     T suma = 0;
